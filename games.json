@@ -461,24 +461,6 @@
       "screenshot": "public/screenshots/webxash.webp"
     },
     {
-      "id": "gta-vc",
-      "category": "open-world",
-      "url": "https://joncodeofficial.github.io/gta-vice-city-web/",
-      "title": {
-        "zh": "GTA 罪恶都市",
-        "en": "GTA Vice City"
-      },
-      "blurb": {
-        "zh": "《侠盗猎车手：罪恶都市》（2002）以 80 年代迈阿密为灵感，是开放世界的经典之作。这个网页移植尝试在浏览器里运行罪恶都市，需要自备游戏文件。",
-        "en": "Grand Theft Auto: Vice City (2002) is the open-world classic inspired by 1980s Miami. This web port runs Vice City in the browser and needs your own game files."
-      },
-      "tags": [
-        "open-world",
-        "gta"
-      ],
-      "screenshot": "public/screenshots/gta-vc.webp"
-    },
-    {
       "id": "simpsons-har",
       "category": "open-world",
       "url": "https://shar-wasm.cjoseph.workers.dev/?skipmovie",
@@ -534,24 +516,6 @@
         "open-source"
       ],
       "screenshot": "public/screenshots/d2r-mobile.webp"
-    },
-    {
-      "id": "hedgewars",
-      "category": "open-world",
-      "url": "https://webwars.link",
-      "title": {
-        "zh": "刺猬大战",
-        "en": "Hedgewars"
-      },
-      "blurb": {
-        "zh": "Hedgewars 是一款开源的回合制炮术策略游戏，类似《百战天虫》，操控刺猬小队用各种搞笑武器互相攻击。webwars.link 是它的浏览器版本。",
-        "en": "Hedgewars is an open-source turn-based artillery strategy game in the spirit of Worms: lead a team of hedgehogs armed with silly weapons. webwars.link is its browser edition."
-      },
-      "tags": [
-        "strategy",
-        "open-source"
-      ],
-      "screenshot": "public/screenshots/hedgewars.webp"
     }
   ]
 }
