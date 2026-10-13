@@ -1,0 +1,557 @@
+{
+  "categories": [
+    {
+      "id": "remakes",
+      "zh": "我的重制",
+      "en": "My Remakes",
+      "featured": true
+    },
+    {
+      "id": "fps-zombies",
+      "zh": "僵尸 / 使命召唤",
+      "en": "Zombies / CoD"
+    },
+    {
+      "id": "sports",
+      "zh": "体育 / 滑板",
+      "en": "Sports / Skate"
+    },
+    {
+      "id": "fps-classics",
+      "zh": "经典 FPS",
+      "en": "FPS Classics"
+    },
+    {
+      "id": "open-world",
+      "zh": "开放世界 / RPG",
+      "en": "Open World / RPG"
+    }
+  ],
+  "games": [
+    {
+      "id": "big-fish",
+      "category": "remakes",
+      "url": "https://liuzhuoling2011.github.io/big-fish-eat-small-fish/",
+      "title": {
+        "zh": "大鱼吃小鱼",
+        "en": "Big Fish Eat Small Fish"
+      },
+      "blurb": {
+        "zh": "一款经典的 4399 Flash 休闲游戏：在海底吃掉比你小的鱼，躲开比你大的鱼，慢慢长成霸主。这是基于原版 SWF 逻辑还原的 HTML5 重制版，支持触屏摇杆，手机电脑都能玩。",
+        "en": "A classic 4399 Flash arcade game: eat fish smaller than you, dodge the bigger ones, and grow into the king of the sea. This HTML5 remake rebuilds the original SWF logic with touch joystick support, so it plays on phones and desktops alike."
+      },
+      "tags": [
+        "arcade",
+        "flash-remake",
+        "html5"
+      ],
+      "screenshot": "public/screenshots/big-fish.webp",
+      "featured": true
+    },
+    {
+      "id": "gold-miner",
+      "category": "remakes",
+      "url": "https://liuzhuoling2011.github.io/gold-miner/",
+      "title": {
+        "zh": "黄金矿工",
+        "en": "Gold Miner"
+      },
+      "blurb": {
+        "zh": "童年必玩的黄金矿工：摆动钩爪抓取金块和钻石，在限时内达成目标分，再去商店买炸药和力量药水。这一版用 HTML5 还原了原版关卡数据和钩爪摆动手感。",
+        "en": "The childhood classic: swing the claw to grab gold and diamonds, hit the target score before time runs out, then buy dynamite and strength potions in the shop. This HTML5 version recreates the original level data and the feel of the swinging claw."
+      },
+      "tags": [
+        "arcade",
+        "flash-remake",
+        "html5"
+      ],
+      "screenshot": "public/screenshots/gold-miner.webp",
+      "featured": true
+    },
+    {
+      "id": "lfz-monopoly",
+      "category": "remakes",
+      "url": "https://liuzhuoling2011.github.io/lfz-remake/",
+      "title": {
+        "zh": "老夫子大富翁",
+        "en": "Old Master Q Monopoly"
+      },
+      "blurb": {
+        "zh": "以香港漫画《老夫子》为主题的经典大富翁游戏，掷骰子买地盖楼，用卡片整蛊对手。这个网页重制版收录了香港、九龙和古代等地图，内置 AI 对手，打开浏览器就能玩。",
+        "en": "A classic Monopoly-style board game themed on the Hong Kong comic Old Master Q: roll dice, buy land, build, and prank rivals with cards. This web remake brings back the Hong Kong, Kowloon and ancient-era maps with AI opponents, right in your browser."
+      },
+      "tags": [
+        "board",
+        "remake",
+        "html5"
+      ],
+      "screenshot": "public/screenshots/lfz-monopoly.webp",
+      "featured": true
+    },
+    {
+      "id": "pvz",
+      "category": "remakes",
+      "url": "https://liuzhuoling2011.github.io/plants-vs-zombies-flash-remake/",
+      "title": {
+        "zh": "植物大战僵尸",
+        "en": "Plants vs Zombies"
+      },
+      "blurb": {
+        "zh": "PopCap 的塔防经典：收集阳光、种下豌豆射手和向日葵，挡住一波波来袭的僵尸。这是 4399 Flash 版的 HTML5 重制，移植了 Reanimator 骨骼动画，界面适合小朋友，进度保存在本机。",
+        "en": "PopCap's tower-defense classic: collect sun, plant peashooters and sunflowers, and hold off waves of zombies. This HTML5 remake of the 4399 Flash version ports the Reanimator skeletal animation, has a kid-friendly UI, and saves progress locally."
+      },
+      "tags": [
+        "tower-defense",
+        "flash-remake",
+        "html5"
+      ],
+      "screenshot": "public/screenshots/pvz.webp",
+      "featured": true
+    },
+    {
+      "id": "bo1z",
+      "category": "fps-zombies",
+      "url": "https://vel.gg/bo1z",
+      "title": {
+        "zh": "BO1 僵尸",
+        "en": "Black Ops 1 Zombies"
+      },
+      "blurb": {
+        "zh": "《使命召唤：黑色行动》里的僵尸模式：和队友守住据点，一波波顶住越来越强的僵尸。这个粉丝网页版在浏览器里重现了地图选择和经典的回合制生存玩法。",
+        "en": "The Zombies mode from Call of Duty: Black Ops: hold your ground against ever-stronger waves of the undead. This fan-made web version recreates the map select and classic round-based survival right in the browser."
+      },
+      "tags": [
+        "fps",
+        "zombies",
+        "cod"
+      ],
+      "screenshot": "public/screenshots/bo1z.webp"
+    },
+    {
+      "id": "moon",
+      "category": "fps-zombies",
+      "url": "https://moon-zombies.pages.dev",
+      "title": {
+        "zh": "Moon 月球",
+        "en": "Moon"
+      },
+      "blurb": {
+        "zh": "Moon 是《黑色行动》僵尸模式的月球基地地图，以低重力和太空服机制出名。这个网页移植让你直接在浏览器里体验 Area 51 到月球的传送和生存战。",
+        "en": "Moon is the lunar-base Zombies map from Black Ops, famous for its low gravity and space-suit mechanics. This web port lets you warp from Area 51 to the Moon and fight for survival in your browser."
+      },
+      "tags": [
+        "fps",
+        "zombies",
+        "cod"
+      ],
+      "screenshot": "public/screenshots/moon.webp"
+    },
+    {
+      "id": "kino",
+      "category": "fps-zombies",
+      "url": "https://kino-der-toten.pages.dev",
+      "title": {
+        "zh": "Kino der Toten 亡者剧院",
+        "en": "Kino der Toten"
+      },
+      "blurb": {
+        "zh": "Kino der Toten 是《黑色行动》最受欢迎的僵尸地图之一，舞台是一座废弃的德国剧院。这个网页移植还原了剧院布局、传送门和 Pack-a-Punch 武器升级。",
+        "en": "Kino der Toten is one of the most beloved Black Ops Zombies maps, set in an abandoned German theater. This web port recreates the theater layout, teleporter and Pack-a-Punch weapon upgrades."
+      },
+      "tags": [
+        "fps",
+        "zombies",
+        "cod"
+      ],
+      "screenshot": "public/screenshots/kino.webp"
+    },
+    {
+      "id": "cheese-cube",
+      "category": "fps-zombies",
+      "url": "https://cheese-cube.pages.dev",
+      "title": {
+        "zh": "BO3 Cheese Cube",
+        "en": "BO3 Cheese Cube"
+      },
+      "blurb": {
+        "zh": "Cheese Cube 是《黑色行动 3》创意工坊里很火的一张简约僵尸地图，在方块状的小场地里无限刷回合。这个网页版保留了它快节奏的生存玩法，打开即玩。",
+        "en": "Cheese Cube is a popular minimalist Black Ops 3 Workshop Zombies map: a small blocky arena where you grind endless rounds. This web version keeps its fast-paced survival loop, ready to play instantly."
+      },
+      "tags": [
+        "fps",
+        "zombies",
+        "bo3"
+      ],
+      "screenshot": "public/screenshots/cheese-cube.webp"
+    },
+    {
+      "id": "bo2",
+      "category": "fps-zombies",
+      "url": "https://vibeslops.luckeysystems.com",
+      "title": {
+        "zh": "黑色行动 2",
+        "en": "Black Ops 2"
+      },
+      "blurb": {
+        "zh": "《使命召唤：黑色行动 2》是 2012 年的近未来军事射击游戏，多人模式和僵尸模式都很经典。这个浏览器项目以网页形式重现 BO2 风格的射击体验。",
+        "en": "Call of Duty: Black Ops 2 is a 2012 near-future military shooter with legendary multiplayer and Zombies modes. This browser project recreates a BO2-style shooting experience on the web."
+      },
+      "tags": [
+        "fps",
+        "cod"
+      ],
+      "screenshot": "public/screenshots/bo2.webp"
+    },
+    {
+      "id": "mw2",
+      "category": "fps-zombies",
+      "url": "https://ovz-game-production.up.railway.app",
+      "title": {
+        "zh": "现代战争 2",
+        "en": "Modern Warfare 2"
+      },
+      "blurb": {
+        "zh": "《使命召唤：现代战争 2》是 2009 年的军事射击经典，以电影化战役和快节奏多人对战著称。这个网页版本带来 MW2 风格的浏览器射击玩法。",
+        "en": "Call of Duty: Modern Warfare 2 is the 2009 military shooter classic, known for its cinematic campaign and fast multiplayer. This web build brings MW2-style shooting to the browser."
+      },
+      "tags": [
+        "fps",
+        "cod"
+      ],
+      "screenshot": "public/screenshots/mw2.webp"
+    },
+    {
+      "id": "skate3",
+      "category": "sports",
+      "url": "https://skate.aaddpp.lol",
+      "title": {
+        "zh": "Skate 3",
+        "en": "Skate 3"
+      },
+      "blurb": {
+        "zh": "EA 的《Skate 3》以摇杆“Flick-it”操控做出各种滑板技巧，在 Port Carverton 城市里自由滑行。这个网页项目让你在浏览器里体验 Skate 系列的滑板玩法。",
+        "en": "EA's Skate 3 uses the analog-stick \"Flick-it\" controls to pull off tricks while you cruise freely around Port Carverton. This web project brings the Skate series' skating to the browser."
+      },
+      "tags": [
+        "skate",
+        "sports"
+      ],
+      "screenshot": "public/screenshots/skate3.webp"
+    },
+    {
+      "id": "skate-rust",
+      "category": "sports",
+      "url": "https://global-terror.net",
+      "title": {
+        "zh": "Skate Rust",
+        "en": "Skate Rust"
+      },
+      "blurb": {
+        "zh": "一个用 Rust 编写的网页滑板游戏，致敬 Skate 系列的自由街头滑板。在开放场景里刷技巧、找滑点，全部在浏览器中运行。",
+        "en": "A browser skateboarding game written in Rust, inspired by the free-roaming street skating of the Skate series. Chain tricks and hunt for spots in an open scene, all running in your browser."
+      },
+      "tags": [
+        "skate",
+        "rust",
+        "wasm"
+      ],
+      "screenshot": "public/screenshots/skate-rust.webp"
+    },
+    {
+      "id": "pes6",
+      "category": "sports",
+      "url": "https://pes6.optijuegos.net",
+      "title": {
+        "zh": "实况足球 6",
+        "en": "PES 6"
+      },
+      "blurb": {
+        "zh": "《实况足球 6》（Pro Evolution Soccer 6）是 2006 年的足球名作，被很多人视为系列巅峰。这个项目把 PSP 版重新编译到浏览器运行，支持在线对战和触屏手柄。",
+        "en": "Pro Evolution Soccer 6 is the 2006 football classic that many fans consider the series' peak. This project recompiles the PSP version to run in the browser, with online play and on-screen touch controls."
+      },
+      "tags": [
+        "soccer",
+        "sports",
+        "psp"
+      ],
+      "screenshot": "public/screenshots/pes6.webp"
+    },
+    {
+      "id": "cs-surf",
+      "category": "fps-classics",
+      "url": "https://surfd.net",
+      "title": {
+        "zh": "CS Surf",
+        "en": "CS Surf"
+      },
+      "blurb": {
+        "zh": "Surf 是 Counter-Strike 社区诞生的经典玩法：在斜坡上借助空气加速“冲浪”，挑战跑图速度。surfd.net 把经典 Surf 搬进浏览器，无需安装。",
+        "en": "Surf is a classic game mode born in the Counter-Strike community: glide along angled ramps using air-strafing to set speed records. surfd.net brings classic surf to the browser with no install."
+      },
+      "tags": [
+        "fps",
+        "surf",
+        "cs"
+      ],
+      "screenshot": "public/screenshots/cs-surf.webp"
+    },
+    {
+      "id": "halo-ce",
+      "category": "fps-classics",
+      "url": "https://mitchellhynes.com/halo",
+      "title": {
+        "zh": "光环：战斗进化",
+        "en": "Halo CE"
+      },
+      "blurb": {
+        "zh": "《光环：战斗进化》是 2001 年 Bungie 打造的科幻 FPS，开启了士官长的传奇。这个网页移植让你在浏览器里重温经典的 Halo 战役与地图。",
+        "en": "Halo: Combat Evolved is Bungie's 2001 sci-fi FPS that launched the Master Chief saga. This web port lets you revisit classic Halo levels in the browser."
+      },
+      "tags": [
+        "fps",
+        "halo"
+      ],
+      "screenshot": "public/screenshots/halo-ce.webp"
+    },
+    {
+      "id": "halo-ce-mobile",
+      "category": "fps-classics",
+      "url": "https://hcemobile.com",
+      "title": {
+        "zh": "光环 CE 手机版",
+        "en": "Halo CE Mobile"
+      },
+      "blurb": {
+        "zh": "同样是《光环：战斗进化》，但专为手机浏览器做了触屏优化。在手机上就能体验士官长对抗星盟的经典战斗。",
+        "en": "The same Halo: Combat Evolved, but tuned for mobile browsers with touch controls. Fight the Covenant as Master Chief right on your phone."
+      },
+      "tags": [
+        "fps",
+        "halo",
+        "mobile"
+      ],
+      "screenshot": "public/screenshots/halo-ce-mobile.webp"
+    },
+    {
+      "id": "quake1",
+      "category": "fps-classics",
+      "url": "https://q1.pieter.com",
+      "title": {
+        "zh": "雷神之锤",
+        "en": "Quake"
+      },
+      "blurb": {
+        "zh": "id Software 1996 年的《雷神之锤》是真 3D FPS 的开山之作，哥特风关卡和火箭跳影响深远。这个网页版可直接在浏览器里多人对战，无需安装。",
+        "en": "id Software's 1996 Quake pioneered true-3D FPS games with gothic levels and rocket jumps. This web version runs in the browser with multiplayer and no install."
+      },
+      "tags": [
+        "fps",
+        "id-software"
+      ],
+      "screenshot": "public/screenshots/quake1.webp"
+    },
+    {
+      "id": "quake2",
+      "category": "fps-classics",
+      "url": "https://q2.pieter.com",
+      "title": {
+        "zh": "雷神之锤 2",
+        "en": "Quake II"
+      },
+      "blurb": {
+        "zh": "《雷神之锤 2》（1997）把舞台搬到外星 Strogg 世界，带来更流畅的引擎和经典多人模式。这个网页版本让你在浏览器里免安装开打。",
+        "en": "Quake II (1997) moves the action to the alien Strogg world, with a smoother engine and classic multiplayer. This web version lets you jump in from the browser with nothing to install."
+      },
+      "tags": [
+        "fps",
+        "id-software"
+      ],
+      "screenshot": "public/screenshots/quake2.webp"
+    },
+    {
+      "id": "quake3",
+      "category": "fps-classics",
+      "url": "https://q3.pieter.com",
+      "title": {
+        "zh": "雷神之锤 3 竞技场",
+        "en": "Quake III Arena"
+      },
+      "blurb": {
+        "zh": "《雷神之锤 3：竞技场》（1999）是纯粹的竞技 FPS，奠定了电竞射击的基础。这个网页版保留了高速对战的手感，打开浏览器即可开战。",
+        "en": "Quake III Arena (1999) is the purest arena FPS and a foundation of competitive shooters. This web version keeps the high-speed deathmatch feel, playable right in the browser."
+      },
+      "tags": [
+        "fps",
+        "id-software"
+      ],
+      "screenshot": "public/screenshots/quake3.webp"
+    },
+    {
+      "id": "rtcw",
+      "category": "fps-classics",
+      "url": "https://rtcw.pieter.com",
+      "title": {
+        "zh": "重返德军总部",
+        "en": "Return to Castle Wolfenstein"
+      },
+      "blurb": {
+        "zh": "《重返德军总部》（2001）是二战题材 FPS，其多人模式开创了团队目标玩法。这个网页版提供免安装的浏览器多人对战。",
+        "en": "Return to Castle Wolfenstein (2001) is a WWII FPS whose multiplayer pioneered objective-based team play. This web version offers free, install-free multiplayer in the browser."
+      },
+      "tags": [
+        "fps",
+        "wolfenstein"
+      ],
+      "screenshot": "public/screenshots/rtcw.webp"
+    },
+    {
+      "id": "ut",
+      "category": "fps-classics",
+      "url": "https://ut.pieter.com",
+      "title": {
+        "zh": "Urban Terror（UT）",
+        "en": "Urban Terror (UT)"
+      },
+      "blurb": {
+        "zh": "Urban Terror 是基于 Quake III 引擎的免费写实风团队射击游戏，节奏快、强调跑酷移动，常被称为“好莱坞战术射击”。这个网页版可在浏览器里免安装多人对战。",
+        "en": "Urban Terror is a free, realistic-flavored team shooter built on the Quake III engine, fast-paced with parkour-style movement — often called \"Hollywood tactical\". This web version offers install-free multiplayer in the browser."
+      },
+      "tags": [
+        "fps",
+        "quake3-engine"
+      ],
+      "screenshot": "public/screenshots/ut.webp"
+    },
+    {
+      "id": "hl",
+      "category": "fps-classics",
+      "url": "https://pixelsuft.github.io/hl/",
+      "title": {
+        "zh": "半条命",
+        "en": "Half-Life"
+      },
+      "blurb": {
+        "zh": "Valve 1998 年的《半条命》以电影化叙事彻底改变了 FPS，主角戈登·弗里曼在黑山基地对抗外星入侵。这个网页移植基于 Xash3D 引擎在浏览器中运行。",
+        "en": "Valve's 1998 Half-Life redefined the FPS with seamless storytelling as Gordon Freeman fights an alien invasion at Black Mesa. This web port runs in the browser on the Xash3D engine."
+      },
+      "tags": [
+        "fps",
+        "valve"
+      ],
+      "screenshot": "public/screenshots/hl.webp"
+    },
+    {
+      "id": "webxash",
+      "category": "fps-classics",
+      "url": "https://x8bitrain.github.io/webXash/",
+      "title": {
+        "zh": "半条命 / CS 1.6",
+        "en": "Half-Life / CS 1.6"
+      },
+      "blurb": {
+        "zh": "webXash 把开源的 Xash3D 引擎编译成 WebAssembly，可在浏览器里运行《半条命》和《反恐精英 1.6》。部分内容需要你自备原版游戏文件。",
+        "en": "webXash compiles the open-source Xash3D engine to WebAssembly so Half-Life and Counter-Strike 1.6 run in the browser. Some content requires your own original game files."
+      },
+      "tags": [
+        "fps",
+        "valve",
+        "cs",
+        "wasm"
+      ],
+      "screenshot": "public/screenshots/webxash.webp"
+    },
+    {
+      "id": "gta-vc",
+      "category": "open-world",
+      "url": "https://joncodeofficial.github.io/gta-vice-city-web/",
+      "title": {
+        "zh": "GTA 罪恶都市",
+        "en": "GTA Vice City"
+      },
+      "blurb": {
+        "zh": "《侠盗猎车手：罪恶都市》（2002）以 80 年代迈阿密为灵感，是开放世界的经典之作。这个网页移植尝试在浏览器里运行罪恶都市，需要自备游戏文件。",
+        "en": "Grand Theft Auto: Vice City (2002) is the open-world classic inspired by 1980s Miami. This web port runs Vice City in the browser and needs your own game files."
+      },
+      "tags": [
+        "open-world",
+        "gta"
+      ],
+      "screenshot": "public/screenshots/gta-vc.webp"
+    },
+    {
+      "id": "simpsons-har",
+      "category": "open-world",
+      "url": "https://shar-wasm.cjoseph.workers.dev/?skipmovie",
+      "title": {
+        "zh": "辛普森一家：横冲直撞",
+        "en": "The Simpsons: Hit & Run"
+      },
+      "blurb": {
+        "zh": "《辛普森一家：横冲直撞》（2003）是被称作“卡通版 GTA”的开放世界驾驶冒险，在春田镇里飙车完成任务。这个项目把它编译成 WebAssembly 在浏览器中运行。",
+        "en": "The Simpsons: Hit & Run (2003) is the open-world driving adventure often called \"cartoon GTA\", racing around Springfield on missions. This project compiles it to WebAssembly to run in the browser."
+      },
+      "tags": [
+        "open-world",
+        "wasm"
+      ],
+      "screenshot": "public/screenshots/simpsons-har.webp"
+    },
+    {
+      "id": "diablo",
+      "category": "open-world",
+      "url": "https://johnimril.github.io/diablo_web/",
+      "title": {
+        "zh": "暗黑破坏神",
+        "en": "Diablo"
+      },
+      "blurb": {
+        "zh": "暴雪 1996 年的《暗黑破坏神》开创了动作 RPG 刷宝玩法，玩家深入崔斯特姆教堂地下迷宫讨伐魔王。这个网页版基于开源的 DevilutionX 在浏览器运行，可用试玩版或自备完整游戏文件。",
+        "en": "Blizzard's 1996 Diablo invented the loot-driven action RPG as you descend beneath Tristram's cathedral to slay the Lord of Terror. This web build runs on open-source DevilutionX, using the shareware data or your own full game files."
+      },
+      "tags": [
+        "rpg",
+        "action",
+        "wasm"
+      ],
+      "screenshot": "public/screenshots/diablo.webp"
+    },
+    {
+      "id": "d2r-mobile",
+      "category": "open-world",
+      "url": "https://github.com/jhaizhou-ops/d2r-mobile",
+      "title": {
+        "zh": "暗黑破坏神 II：狱火重生 移动版",
+        "en": "D2R Mobile"
+      },
+      "blurb": {
+        "zh": "D2R Mobile 是《暗黑破坏神 II：狱火重生》（含术士君临资料片）的开源 iOS / macOS 兼容层，让你自己购买的 Switch 版原生运行在 iPhone、iPad 和 Mac 上。全套触屏操作重做，稳定 60 帧，不含任何游戏内容，需要自备游戏文件。",
+        "en": "D2R Mobile is an open-source iOS / macOS compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion, running your own Switch copy natively on iPhone, iPad and Mac. It rebuilds every control for touch and holds 60 fps; it ships no game content, so bring your own game files."
+      },
+      "tags": [
+        "rpg",
+        "ios",
+        "macos",
+        "open-source"
+      ],
+      "screenshot": "public/screenshots/d2r-mobile.webp"
+    },
+    {
+      "id": "hedgewars",
+      "category": "open-world",
+      "url": "https://webwars.link",
+      "title": {
+        "zh": "刺猬大战",
+        "en": "Hedgewars"
+      },
+      "blurb": {
+        "zh": "Hedgewars 是一款开源的回合制炮术策略游戏，类似《百战天虫》，操控刺猬小队用各种搞笑武器互相攻击。webwars.link 是它的浏览器版本。",
+        "en": "Hedgewars is an open-source turn-based artillery strategy game in the spirit of Worms: lead a team of hedgehogs armed with silly weapons. webwars.link is its browser edition."
+      },
+      "tags": [
+        "strategy",
+        "open-source"
+      ],
+      "screenshot": "public/screenshots/hedgewars.webp"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light dark" />
+  <meta property="og:title" content="OpenGame · 开源游戏导航" />
+  <meta property="og:image" content="public/screenshots/pvz.webp" />
+  <meta name="description" content="OpenGame / 开源游戏导航 — bilingual directory of open and web-ported games." />
+  <title>开源游戏导航 · OpenGame</title>
+  <link rel="icon" href="public/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">OG</div>
+        <div class="brand-text">
+          <strong id="brand-title">开源游戏导航</strong>
+          <span id="brand-sub">Open / Web-ported games</span>
+        </div>
+      </div>
+      <div class="header-actions">
+        <div class="lang-toggle" role="group" aria-label="Language">
+          <button type="button" data-lang="zh" class="active">中文</button>
+          <button type="button" data-lang="en">EN</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-inner">
+        <p class="eyebrow">OpenGame</p>
+        <h1 id="hero-title">开源 · 网页移植游戏导航</h1>
+        <p id="hero-desc">
+          收集分类近期可玩的开源与网页移植游戏：我的 Flash/经典重制，以及 X 上分享的 FPS、滑板、开放世界等。点卡片直接开玩。
+        </p>
+        <div class="hero-meta">
+          <span class="pill" id="pill-games"><strong>—</strong></span>
+          <span class="pill" id="pill-cats"><strong>—</strong></span>
+          <span class="pill" id="pill-lang">中英双语</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+    <section class="controls" aria-label="Filters"><div class="container controls-inner">
+      <div class="search-wrap">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <circle cx="11" cy="11" r="7" />
+          <path d="M20 20l-3.5-3.5" />
+        </svg>
+        <input id="search" type="search" autocomplete="off" placeholder="搜索游戏名称、标签…" />
+      </div>
+      <div class="chips" id="chips"></div>
+    </div></section>
+  <main class="container">
+    <section class="section featured-wrap" id="featured-section">
+      <div class="section-head">
+        <div>
+          <h2 id="featured-title">我的重制</h2>
+          <p id="featured-hint">HTML5 重制，可直接在浏览器畅玩</p>
+        </div>
+      </div>
+      <div class="grid" id="featured-grid"></div>
+    </section>
+
+    <section class="section" id="catalog-section">
+      <div class="section-head">
+        <div>
+          <h2 id="catalog-title">游戏目录</h2>
+          <p id="catalog-hint">按分类浏览 · 支持搜索与筛选</p>
+        </div>
+      </div>
+      <div class="grid" id="catalog-grid"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="footer-note">
+        <span id="footer-note-text">部分粉丝移植需要你自备原版游戏文件；请跳过任何要求下载启动器的站点。更多 GTA / Minecraft 类 WASM 移植可逛 </span>
+        <a id="footer-more" href="https://wasmarcade.com" target="_blank" rel="noopener noreferrer">Wasm Arcade</a><span id="footer-note-end">。</span>
+      </p>
+      <div class="footer-meta">
+        <span id="footer-credit">OpenGame · 静态可部署到 GitHub Pages</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
